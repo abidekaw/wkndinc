@@ -1,0 +1,247 @@
+:root {
+   --primary: #eebece;
+   --secondary: #0b24fb;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   outline: none;
+}
+body {
+   font-family: 'Work Sans', sans-serif;
+   background-color: #e6e6e6;
+}
+.container {
+   max-width: 1366px;
+}
+.container-sm {
+   max-width: 619px;
+}
+.primary {
+   background-color: var(--primary);
+}
+.secondary {
+   background-color: var(--secondary);
+}
+.flex {
+   display: flex;
+}
+.column {
+   flex-direction: column;
+}
+.center {
+   align-items: center;
+}
+.arround {
+   justify-content: space-around;
+}
+.between {
+   justify-content: space-between;
+}
+.evenly {
+   justify-content: space-evenly;
+}
+.justify-center {
+   justify-content: center;
+}
+.justify-start {
+   justify-content: start;
+}
+.w-54 {
+   width: 218px;
+}
+.w-77 {
+   width: 311px;
+}
+.w-max {
+   width: max-content;
+}
+.w-full {
+   width: 100%;
+}
+.h-40 {
+   height: 160px;
+}
+.h-44 {
+   height: 176px;
+}
+.top-0 {
+   top: 0;
+}
+.right-0 {
+   right: 0;
+}
+.-right-18 {
+   right: -75px;
+}
+.bottom-0 {
+   bottom: 0;
+}
+.left-0 {
+   left: 0;
+}
+.-left-8 {
+   left: -32px;
+}
+.-left-12 {
+   left: -50px;
+}
+.-top-24 {
+   top: -105px;
+}
+.relative {
+   position: relative;
+}
+.absolute {
+   position: absolute;
+}
+.inline-block {
+   display: inline-block;
+}
+.font-normal {
+   font-weight: 400;
+}
+.font-bold {
+   font-weight: 700;
+}
+.font-black {
+   font-weight: 900;
+}
+.text-xs {
+   font-size: 12px;
+   line-height: 16px;
+}
+.text-base {
+   font-size: 1rem; /* 16px */
+   line-height: 1.5rem; /* 24px */
+}
+.text-lg {
+   font-size: 18px;
+   line-height: 27px;
+}
+.text-xl {
+   font-size: 1.25rem; /* 20px */
+   line-height: 1.75rem; /* 28px */
+}
+.text-3xl {
+   font-size: 32px;
+   line-height: 38px;
+}
+.text-white {
+   color: #fff;
+}
+.text-black {
+   color: #000;
+}
+.text-secondary {
+   color: var(--secondary);
+}
+.text-end {
+   text-align: end;
+}
+.text-center {
+   text-align: center;
+}
+.mb-1 {
+   margin-bottom: 5px;
+}
+.mb-7 {
+   margin-bottom: 30px;
+}
+.ml-3 {
+   margin-left: 13px;
+}
+.mt-4 {
+   margin-top: 4rem;
+}
+.mt-5 {
+   margin-top: 20px;
+}
+.mt-8 {
+   margin-top: 2rem;
+}
+.mt-16 {
+   margin-top: 67px;
+}
+.mt-25 {
+   margin-top: 100px;
+}
+.mx-auto {
+   margin-left: auto;
+   margin-right: auto;
+}
+.p-2-5 {
+   padding: 10px;
+}
+.p-5 {
+   padding: 5.25rem;
+}
+.p-6 {
+   padding: 25px;
+}
+.py-4 {
+   padding-top: 17px;
+   padding-bottom: 17px;
+}
+.py-5 {
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+.py-6 {
+   padding-top: 25px;
+   padding-bottom: 25px;
+}
+.pl-6 {
+   padding-left: 25px;
+}
+.px-8 {
+   padding-left: 32px;
+   padding-right: 32px;
+}
+.px-20 {
+   padding-left: 83px;
+   padding-right: 83px;
+}
+.px-56 {
+   padding-left: 213px;
+   padding-right: 213px;
+}
+.gap-2-5 {
+   gap: 10px;
+}
+.bg-white {
+   background-color: rgb(255 255 255);
+}
+.bg-black {
+   background-color: rgb(0 0 0);
+}
+.rounded {
+   border-radius: 29px;
+}
+.overflow-x-hidden {
+   overflow-x: hidden;
+}
+.overflow-x-auto {
+   overflow-x: auto;
+}
+.uppercase {
+   text-transform: uppercase;
+}
+.overflow-x-auto::-webkit-scrollbar {
+   display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.overflow-x-auto {
+   -ms-overflow-style: none; /* IE and Edge */
+   scrollbar-width: none; /* Firefox */
+}
+.wrap {
+   flex-wrap: wrap;
+}
+.fixed {
+   position: fixed;
+}
