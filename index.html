@@ -8,6 +8,7 @@
    <meta name="description" content="WEEKEND INC">
    <title>WKND</title>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
@@ -63,13 +64,13 @@
             <div class="relative left-0 w-full -top-48">
                <h2 class="text-3xl text-white text-center mb-1">Testimonial</h2>
                <div class="container-sm mx-auto relative pl-6 py-6">
-                  <div id="testi" class="container-sm mx-auto flex gap-2-5 overflow-x-auto justify-start">
+                  <div id="slider" class="container-sm mx-auto flex gap-2-5 overflow-x-auto justify-start">
                   </div>
-                  <div class="arrow-outer active">
-                     <button class="arrow-inner absolute -left-12">
+                  <div class="arrow-outer">
+                     <button class="arrow-inner absolute prev active" aria-label="prev">
                         <i class="fa-solid fa-arrow-left"></i>
                      </button>
-                     <button class="arrow-inner absolute" style="right: -650px">
+                     <button class="arrow-inner absolute next" aria-label="next">
                         <i class="fa-solid fa-arrow-right"></i>
                      </button>
                   </div>
@@ -95,7 +96,7 @@
                </div>
 
                <h2 class="text-3xl text-white text-center mt-25 mb-7">Help & Tips</h2>
-               <div id="help-tips" class="help-tips w-full flex wrap gap-2-5 container">
+               <div id="card" class="help-tips w-full flex wrap gap-2-5 container">
                </div>
 
                <h2 class="text-3xl text-white text-center mt-25 mb-7">You’re all set.</h2>
@@ -114,6 +115,7 @@
       </div>
    </footer>
 
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
    <script src="/assets/js/main.js"></script>
 </body>
 

@@ -339,6 +339,12 @@ button {
 .help-tips {
    justify-content: center;
 }
+.next {
+   right: -650px;
+}
+.prev {
+   left: -50px;
+}
 
 @media screen and (max-width: 640px) {
    .px-56 {
