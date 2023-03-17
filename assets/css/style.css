@@ -3,6 +3,8 @@
    --primary: #eebece;
    --secondary: #0b24fb;
 }
+
+/* RESET CSS */
 * {
    margin: 0;
    padding: 0;
@@ -14,6 +16,12 @@ body {
    font-family: 'Work Sans', sans-serif;
    background-color: #e6e6e6;
 }
+button {
+   cursor: pointer;
+   outline: none;
+}
+
+/* UTILS */
 .container {
    max-width: 1366px;
 }
@@ -55,6 +63,9 @@ body {
 }
 .w-54 {
    width: 218px;
+}
+.w-61 {
+   width: 247px;
 }
 .w-77 {
    width: 311px;
@@ -249,10 +260,8 @@ body {
 .fixed {
    position: fixed;
 }
-button {
-   cursor: pointer;
-   outline: none;
-}
+
+/* END UTILS */
 
 .outer {
    width: 100%;
@@ -340,12 +349,16 @@ button {
    justify-content: center;
 }
 .next {
-   right: -650px;
+   right: -50px;
 }
 .prev {
    left: -50px;
 }
+.tns-nav {
+   display: none;
+}
 
+/* RESPONSIVE */
 @media screen and (max-width: 640px) {
    .px-56 {
       padding-left: 24px;

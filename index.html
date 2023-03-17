@@ -8,14 +8,15 @@
    <meta name="description" content="WEEKEND INC">
    <title>WKND</title>
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
    <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 </head>
 
 <body class="relative">
    <header>
-      <div class="container outer absolute flex center px-56 bg-white">
-         <img src="/assets/img/bitmap-1.svg" alt="prof">
+      <div class="container absolute flex center px-56 bg-white outer">
+         <img src="/assets/img/bitmap-1.svg" alt="pic" width="33" height="33">
          <ul class="inline-block ml-3">
             <li class="w-max">Good Morning</li>
             <li class="w-max font-bold">Fellas</li>
@@ -40,7 +41,7 @@
       <section>
          <div class="container primary mx-auto p-5 flex column center justify-center relative bg-o wrapper-mid">
             <div class="absolute top-0 right-0">
-               <img src="/assets/img/group-4.svg" alt="group-4">
+               <img src="/assets/img/group-4.svg" alt="group-4" width="158.5" height="158">
             </div>
             <div class="container-sm text-xl flex center wrap justify-end">
                <p class="text-end">
@@ -63,16 +64,16 @@
          <div class=" container mx-auto p-5 bg-black text-white bg-x wrapper-bottom">
             <div class="relative left-0 w-full -top-48">
                <h2 class="text-3xl text-white text-center mb-1">Testimonial</h2>
-               <div class="container-sm mx-auto relative pl-6 py-6">
-                  <div id="slider" class="container-sm mx-auto flex gap-2-5 overflow-x-auto justify-start">
-                  </div>
-                  <div class="arrow-outer">
-                     <button class="arrow-inner absolute prev active" aria-label="prev">
+               <div class="container-sm mx-auto relative py-6">
+                  <div class="arrow-outer relative w-full">
+                     <button class="arrow-inner absolute prev" aria-label="prev">
                         <i class="fa-solid fa-arrow-left"></i>
                      </button>
                      <button class="arrow-inner absolute next" aria-label="next">
                         <i class="fa-solid fa-arrow-right"></i>
                      </button>
+                  </div>
+                  <div id="slider" class="container mx-auto flex gap-2-5 justify-center my-slider">
                   </div>
                </div>
 
@@ -111,11 +112,10 @@
    <footer>
       <div class="container outer absolute secondary flex center between py-6 bottom-0 px-56">
          <div class="text-white">wknd@2020</div>
-         <img src="/assets/img/alpha.svg" alt="icon" width="126">
+         <img src="/assets/img/alpha.svg" alt="icon" width="126" height="24">
       </div>
    </footer>
 
-   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
    <script src="/assets/js/main.js"></script>
 </body>
 
